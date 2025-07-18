@@ -76,7 +76,7 @@ body {
 	// .popup-container
 
 	&-container {
-		max-height: calc(var(--vh, 1vh) - 1.875rem);
+		max-height: calc((var(--vh, 1vh) * 100) - 1.875rem);
 		max-height: calc(100dvh - 1.875rem);
 	}
 

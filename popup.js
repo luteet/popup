@@ -147,7 +147,8 @@ function Popup(arg) {
 			});
 
 			if (saveID) {
-				if (new URL(window.location).hash) {
+				const url = new URL(window.location);
+				if (url.hash) {
 					open(url.hash, true);
 				}
 			}
