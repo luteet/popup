@@ -60,17 +60,12 @@ body {
 		max-width: 43.75rem; width: 100%;
 		
 		margin: auto;
-		padding: 1rem;
 		
 		background: #FFF;
 		border-radius: 0.875rem;
 		
 		overflow-y: auto;
 		z-index: 2;
-
-		@media (min-width: 768px) {
-			padding: 2rem;
-		}
 	}
 
 	// .popup-container
@@ -78,6 +73,12 @@ body {
 	&-container {
 		max-height: calc((var(--vh, 1vh) * 100) - 1.875rem);
 		max-height: calc(100dvh - 1.875rem);
+		
+		padding: 1rem;
+
+		@media (min-width: 768px) {
+			padding: 2rem;
+		}
 	}
 
 	// .popup-close-button
