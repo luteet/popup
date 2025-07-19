@@ -41,9 +41,9 @@ body {
 		z-index: 2;
 	}
 
-	// .popup-background
+	// .popup-backdrop
 
-	&-background {
+	&-backdrop {
 		position: absolute;
 		left: 0; top: 0;
 
@@ -64,7 +64,6 @@ body {
 		background: #FFF;
 		border-radius: 0.875rem;
 		
-		overflow-y: auto;
 		z-index: 2;
 	}
 
@@ -75,6 +74,8 @@ body {
 		max-height: calc(100dvh - 1.875rem);
 		
 		padding: 1rem;
+
+		overflow-y: auto;
 
 		@media (min-width: 768px) {
 			padding: 2rem;
